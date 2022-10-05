@@ -63,6 +63,23 @@
     </keywords>
 
     <releases>
+        <release version="1.2.1" date="2022-10-03">
+            <description>
+                <p>Bug fixes:</p>
+                <ul>
+                    <li>Fancy macOS *.dmg styling is back.</li>
+                    <li>Self-update on macOS uses open instead of hdiutil.</li>
+                    <li>No more crashes on Windows if the last visited location does not exist anymore.</li>
+                    <li>Fixed text rendering for Qt6 linux builds. Just a workaround, your mileage may vary.</li>
+                    <li>Removed the "Run qFlipper now" checkbox in Windows installer to prevent qFlipper to be run as administrator.</li>
+                    <li>Usual typo and small bug fixes.</li>
+                </ul>
+                <p>Known problems:</p>
+                <ul>
+                    <li>Due to the previous problem with macOS images, this update requires manual intervention on macOS.</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.2.0" date="2022-09-21">
             <description>
                 <p>New features:</p>
