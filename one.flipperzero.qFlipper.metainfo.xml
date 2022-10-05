@@ -63,6 +63,7 @@
     </keywords>
 
     <releases>
+        <release version="1.2.1" date="2022-10-05"/>
         <release version="1.2.0" date="2022-09-21">
             <description>
                 <p>New features:</p>
@@ -109,5 +110,5 @@
             </description>
         </release>
     </releases>
-    <content_rating type="oars-1.1" />
+    <content_rating type="oars-1.1"/>
 </component>

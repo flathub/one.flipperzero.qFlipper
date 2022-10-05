@@ -1,6 +1,6 @@
 app-id: one.flipperzero.qFlipper
 runtime: org.kde.Platform
-runtime-version: "5.15-22.08"
+runtime-version: 5.15-22.08
 sdk: org.kde.Sdk
 command: qFlipper-cli
 rename-desktop-file: qFlipper.desktop
@@ -28,10 +28,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/flipperdevices/qFlipper
-        tag: "1.2.0"
+        tag: 1.2.1
         x-checker-data:
           type: git
-          tag-pattern: "^(\\d+.\\d+.\\d+)$"
+          tag-pattern: ^(\d+.\d+.\d+)$
+        commit: 3ec0fd9debd531faaabb391d900dcfc6ee3c0aca
       - type: file
         path: one.flipperzero.qFlipper.metainfo.xml
       - type: patch
