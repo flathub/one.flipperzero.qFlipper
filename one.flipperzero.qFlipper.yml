@@ -28,11 +28,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/flipperdevices/qFlipper
-        tag: 1.2.1
+        tag: 1.2.2
         x-checker-data:
           type: git
           tag-pattern: ^(\d+.\d+.\d+)$
-        commit: 3ec0fd9debd531faaabb391d900dcfc6ee3c0aca
+        commit: ba67025db56d05881149f0d7556ffb5989a0cbce
       - type: file
         path: one.flipperzero.qFlipper.metainfo.xml
       - type: patch
