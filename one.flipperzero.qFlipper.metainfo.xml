@@ -63,7 +63,22 @@
     </keywords>
 
     <releases>
-        <release version="1.2.2" date="2022-12-12"/>
+        <release version="1.2.2" date="2022-12-12">
+            <description>
+                <p>Bug Fixes</p>
+                <ul>
+                    <li>Fix 32-bit builds (compilation only, no official support and/or testing)</li>
+                    <li>Fix running out of file descriptors when copying a bunch of files</li>
+                    <li>Try to correct filenames containing illegal characters</li>
+                    <li>Updated README.md</li>
+                </ul>
+
+                <p>Under the hood</p>
+                <ul>
+                    <li>Use property API for getting device information (where applicable)</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.2.1" date="2022-10-03">
             <description>
                 <p>Bug fixes:</p>
@@ -75,6 +90,7 @@
                     <li>Removed the "Run qFlipper now" checkbox in Windows installer to prevent qFlipper to be run as administrator.</li>
                     <li>Usual typo and small bug fixes.</li>
                 </ul>
+
                 <p>Known problems:</p>
                 <ul>
                     <li>Due to the previous problem with macOS images, this update requires manual intervention on macOS.</li>
@@ -127,5 +143,5 @@
             </description>
         </release>
     </releases>
-    <content_rating type="oars-1.1"/>
+    <content_rating type="oars-1.1" />
 </component>
