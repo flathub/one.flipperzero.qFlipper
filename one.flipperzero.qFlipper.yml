@@ -2,7 +2,7 @@ app-id: one.flipperzero.qFlipper
 runtime: org.kde.Platform
 runtime-version: 5.15-22.08
 sdk: org.kde.Sdk
-command: qFlipper-cli
+command: qFlipper
 rename-desktop-file: qFlipper.desktop
 rename-icon: qFlipper
 finish-args:
