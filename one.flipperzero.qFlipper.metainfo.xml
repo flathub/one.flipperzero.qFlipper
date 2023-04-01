@@ -22,11 +22,6 @@
             <li>Automatic self-update feature</li>
             <li>Command line interface</li>
         </ul>
-        <p>
-            You probably only need to install this application if you are having problems
-            with your laptop battery, or are trying to work out what programs are using
-            significant amounts of power.
-        </p>
     </description>
 
     <launchable type="desktop-id">one.flipperzero.qFlipper.desktop</launchable>
