@@ -59,7 +59,18 @@
     </keywords>
 
     <releases>
-        <release version="1.3.1" date="2023-05-24"/>
+        <release version="1.3.1" date="2023-05-24">
+            <description>
+                <p>This is a bugfix release.</p>
+                <p>Bug Fixes</p>
+                <ul>
+                    <li>Fix Screen Streaming freeze after clicking the Save Screenshot button</li>
+                    <li>Fix "Unknown method parameter type" error for Qt5 builds</li>
+                    <li>Fix erroneous keyboard commands when browsing filesystem root</li>
+                    <li>Improve error messages in some cases</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.3.0" date="2023-03-31">
             <description>
                 <p>New Features</p>
@@ -189,5 +200,5 @@
             </description>
         </release>
     </releases>
-    <content_rating type="oars-1.1"/>
+    <content_rating type="oars-1.1" />
 </component>
