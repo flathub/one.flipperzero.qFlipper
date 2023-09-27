@@ -1,6 +1,6 @@
 app-id: one.flipperzero.qFlipper
 runtime: org.kde.Platform
-runtime-version: '6.4'
+runtime-version: '6.5'
 sdk: org.kde.Sdk
 command: qFlipper
 rename-desktop-file: qFlipper.desktop
