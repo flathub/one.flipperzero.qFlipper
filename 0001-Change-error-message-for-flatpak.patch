@@ -1,6 +1,6 @@
-From ff0030e67743b012fb4dc18e62fcd5cf6123f139 Mon Sep 17 00:00:00 2001
+From 8d077370fcc882035ce77594dee4dd2146263fcb Mon Sep 17 00:00:00 2001
 From: "Kowalski Dragon (kowalski7cc)" <kowalski7cc@users.noreply.github.com>
-Date: Thu, 29 Sep 2022 14:13:06 +0200
+Date: Wed, 15 Nov 2023 20:22:57 +0100
 Subject: [PATCH] Change error message for flatpak
 
 Signed-off-by: Kowalski Dragon (kowalski7cc) <kowalski7cc@users.noreply.github.com>
@@ -9,33 +9,33 @@ Signed-off-by: Kowalski Dragon (kowalski7cc) <kowalski7cc@users.noreply.github.c
  1 file changed, 2 insertions(+), 4 deletions(-)
 
 diff --git a/application/imports/Misc/ErrorStrings.qml b/application/imports/Misc/ErrorStrings.qml
-index c7a9d09..e8d37bf 100644
+index dbe1c59..85f7b3e 100644
 --- a/application/imports/Misc/ErrorStrings.qml
 +++ b/application/imports/Misc/ErrorStrings.qml
-@@ -29,10 +29,9 @@ QtObject {
+@@ -21,10 +21,9 @@ QtObject {
+ <p>=========== HOW TO FIX ============</p>
+ <p>1. Disconnect all other similar devices from this computer.</p>
+ <p>2. Grant user permissions to access Serial devices.</p>
+-<p>Run \"./qFlipper-x86_64-%1.AppImage rules install\" to do so automatically.</p>
+ <p>3. If the problem persists, reboot Flipper into RECOVERY MODE and click REPAIR to perform a clean installation.</p>
+ <p>-----------------------------------</p>
+-<center><a href='https://docs.flipper.net/'>READ MORE</a></center>".arg(App.version)
++<center><a href='https://github.com/flathub/one.flipperzero.qFlipper/wiki/'>READ MORE</a></center>"
+ 
+     readonly property string errorSerial:
+ "<p>Cannot connect to Flipper. Device is busy.</p>
+@@ -39,10 +38,9 @@ QtObject {
  <p>=========== HOW TO FIX ============</p>
  <p>1. Ensure that Flipper is not connected via Bluetooth or Terminal session.</p>
  <p>2. Grant user permissions to access Serial devices.</p>
 -<p>Run \"./qFlipper-x86_64-%1.AppImage rules install\" to do so automatically.</p>
  <p>3. Reconnect your Flipper.</p>
  <p>-----------------------------------</p>
--<center><a href='https://docs.flipperzero.one/'>READ MORE</a></center>".arg(App.version)
+-<center><a href='https://docs.flipper.net/'>READ MORE</a></center>".arg(App.version)
 +<center><a href='https://github.com/flathub/one.flipperzero.qFlipper/wiki/'>READ MORE</a></center>"
  
      readonly property string errorRecovery:
  "<p>Cannot connect to Flipper in Update & Recovery mode. Device not found.</p>
-@@ -59,10 +58,9 @@ QtObject {
- <p>1. Check that Flipper is in Update & Recovery mode.</p>
- <p>2. Reconnect your Flipper.</p>
- <p>3. Grant user permissions to access DFU devices.</p>
--<p>Run \"./qFlipper-x86_64-%1.AppImage rules install\" to do so automatically.</p>
- <p>4. Reboot Flipper to Flipper OS and try again.</p>
- <p>-----------------------------------</p>
--<center><a href='https://docs.flipperzero.one/'>READ MORE</a></center>".arg(App.version)
-+<center><a href='https://github.com/flathub/one.flipperzero.qFlipper/wiki/'>READ MORE</a></center>"
- 
-     readonly property string errorInternet:
- "<p>Cannot connect to update server.</p>
 -- 
-2.30.2
+2.39.2
 
