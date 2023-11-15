@@ -59,6 +59,31 @@
     </keywords>
 
     <releases>
+        <release version="1.3.3" date="2023-11-14">
+            <description>
+                <p>General notes</p>
+                <p>AppImage users</p>
+                <ul>
+                    <li>Updating the AppImage via the automatic update feature may report an error due to the new AppImage not starting. It is still being downloaded normally, so just launch it from the file manager. This is fixed starting from 1.3.3.</li>
+                </ul>
+                <p>New features</p>
+                <ul>
+                    <li>Screen orientation support in remote control mode</li>
+                </ul>
+                <p>Bug Fixes</p>
+                <ul>
+                    <li>Fix launching AppImage from a path containing spaces</li>
+                    <li>Fix launching AppImage after self-update</li>
+                    <li>Do not commit edits in file manager twice</li>
+                </ul>
+                <p>Other improvements</p>
+                <ul>
+                    <li>Add udev rule for U2F device</li>
+                    <li>Update Flipper graphic</li>
+                    <li>Update error messages</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.3.2" date="2023-06-10">
             <description>
                 <p>This is a bugfix release.</p>
@@ -210,5 +235,5 @@
             </description>
         </release>
     </releases>
-    <content_rating type="oars-1.1" />
+    <content_rating type="oars-1.1"/>
 </component>
