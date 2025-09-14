@@ -1,6 +1,6 @@
 app-id: one.flipperzero.qFlipper
 runtime: org.kde.Platform
-runtime-version: '6.8'
+runtime-version: '6.9'
 sdk: org.kde.Sdk
 command: qFlipper
 rename-desktop-file: qFlipper.desktop
@@ -38,3 +38,5 @@ modules:
         path: one.flipperzero.qFlipper.metainfo.xml
       - type: patch
         path: 0001-Change-error-message-for-flatpak.patch
+      - type: patch
+        path: 0001-Define-for-DeviceInfo.patch
