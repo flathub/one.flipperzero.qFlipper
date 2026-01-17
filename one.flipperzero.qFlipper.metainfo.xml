@@ -7,6 +7,11 @@
     <name>qFlipper</name>
     <summary>Graphical desktop application for updating Flipper Zero firmware via PC</summary>
 
+    <branding>
+        <color type="primary" scheme_preference="light">#fff493</color>
+        <color type="primary" scheme_preference="dark">#000000</color>
+    </branding>
+
     <description>
         <p>
             qFlipper is completely open source and based on Qt framework. Runs on Windows, macOS,
@@ -29,7 +34,7 @@
     <screenshots>
         <screenshot type="default">
             <caption>Main window</caption>
-            <image>https://raw.githubusercontent.com/flipperdevices/qFlipper/dev/screenshot.png</image>
+            <image>https://raw.githubusercontent.com/flipperdevices/qFlipper/bfce851d4da5a01f24189ba79eac9385b7ce8533/screenshot.png</image>
         </screenshot>
         <screenshot>
             <caption>Update your Flipper device</caption>
