@@ -37,7 +37,9 @@
         </screenshot>
     </screenshots>
 
-    <url type="homepage">https://update.flipperzero.one</url>
+    <url type="homepage">https://flipper.net/pages/downloads</url>
+    <url type="faq">https://docs.flipper.net/zero/qflipper</url>
+    <url type="vcs-browser">https://github.com/flipperdevices/qFlipper</url>
     <url type="bugtracker">https://github.com/flipperdevices/qFlipper/issues</url>
     <project_group>Flipper Devices</project_group>
 
